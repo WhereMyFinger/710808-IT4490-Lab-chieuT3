@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane prefHeight="55.0" prefWidth="663.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="83.0" fitWidth="132.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../OneDrive/Pictures/Ảnh%20chụp%20màn%20hình/Screenshot%202021-11-02%20091757.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="95.0" layoutY="24.0" text="INVOICE" textFill="#08a1bc">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="560.0" prefWidth="804.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="68.0" layoutY="37.0" text="Name">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="68.0" layoutY="84.0" text="Phone">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="68.0" layoutY="148.0" text="City">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="68.0" layoutY="206.0" text="Address">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="68.0" layoutY="275.0" text="Shipping">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="68.0" layoutY="292.0" text="Instructions">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="323.0" layoutY="511.0" mnemonicParsing="false" text="Confirm Order">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Button>
+            <Label layoutX="216.0" layoutY="42.0" text="Lê Xuân Nguyện" />
+            <Label layoutX="216.0" layoutY="89.0" text="012345678" />
+            <Label layoutX="216.0" layoutY="153.0" text="Hanoi" />
+            <Label layoutX="216.0" layoutY="211.0" text="Address" />
+            <Label layoutX="216.0" layoutY="280.0" text="Instruction" />
+            <Label layoutX="202.0" layoutY="374.0" text="Subtotal">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="202.0" layoutY="418.0" text="Shipping Fee">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="202.0" layoutY="460.0" text="Total">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="388.0" layoutY="378.0" text="100,000" />
+            <Label layoutX="388.0" layoutY="422.0" text="50,000" />
+            <Label layoutX="388.0" layoutY="464.0" text="150,000" />
+            <Label layoutX="479.0" layoutY="378.0" text="VND" />
+            <Label layoutX="479.0" layoutY="422.0" text="VND" />
+            <Label layoutX="479.0" layoutY="464.0" text="VND" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

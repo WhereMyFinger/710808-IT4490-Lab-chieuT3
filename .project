@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>TestFx</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.xtext.ui.shared.xtextBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.xtext.ui.shared.xtextNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Report/Lab01/BÁO CÁO THỰC HÀNH IT4490.docx</name>
+			<type>1</type>
+			<location>C:/Users/Admin/OneDrive/Documents/BÁO CÁO THỰC HÀNH IT4490.docx</location>
+		</link>
+		<link>
+			<name>Report/Lab01/LeXuanNguyen_20173201_710808_lab01.asta</name>
+			<type>1</type>
+			<location>C:/Users/Admin/OneDrive/Máy tính/710808-IT4490-20211-ChieuT3-Chan/LeXuanNguyen_20173201_710808_lab01.asta</location>
+		</link>
+		<link>
+			<name>Report/Lab02/BÁO CÁO BÀI THỰC HÀNH SỐ 2.docx</name>
+			<type>1</type>
+			<location>C:/Users/Admin/OneDrive/Máy tính/710808-IT4490-20211-ChieuT3-Chan/Bài thực hành số 2/BÁO CÁO BÀI THỰC HÀNH SỐ 2.docx</location>
+		</link>
+		<link>
+			<name>Report/Lab02/System Interface Design.asta</name>
+			<type>1</type>
+			<location>C:/Users/Admin/OneDrive/Máy tính/710808-IT4490-20211-ChieuT3-Chan/Bài thực hành số 2/System Interface Design.asta</location>
+		</link>
+	</linkedResources>
+</projectDescription>
